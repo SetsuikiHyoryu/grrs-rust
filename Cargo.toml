@@ -1,0 +1,21 @@
+[package]
+name = "grrs_hyoryu"
+version = "0.1.0"
+edition = "2021"
+authors = ["Atelier Hyoryu & Yukikaze <57035251+SetsuikiHyoryu@users.noreply.github.com>"]
+license = "MIT"
+description = "A too to search files"
+readme = "README.md"
+homepage = ""
+repository = ""
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+structopt = "0.3.26"
+anyhow = "1.0"
+
+[dev-dependencies]
+assert_cmd = "2.0.14"
+predicates = "3.1.0"
+assert_fs = "1.1.1"
