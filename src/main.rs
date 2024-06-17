@@ -30,7 +30,7 @@ fn main() -> Result<()> {
 
     // “由于 stdout 接收的是字节（而不是字符串）, 所以我们使用 std::io::Write 而不是 std::fmt::Write。”
     // See: https://suibianxiedianer.github.io/rust-cli-book-zh_CN/tutorial/testing_zh.html#%E7%BC%96%E5%86%99%E5%8F%AF%E6%B5%8B%E8%AF%95%E7%9A%84%E4%BB%A3%E7%A0%81
-    grrs::find_matches(&buffer, &args.pattern, &mut io::stdout());
+    grrs_hyoryu::find_matches(&buffer, &args.pattern, &mut io::stdout());
 
     Ok(())
 }
