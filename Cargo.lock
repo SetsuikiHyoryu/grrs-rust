@@ -210,7 +210,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "grrs"
+name = "grrs_hyoryu"
 version = "0.1.0"
 dependencies = [
  "anyhow",

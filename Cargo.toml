@@ -6,8 +6,8 @@ authors = ["Atelier Hyoryu & Yukikaze <57035251+SetsuikiHyoryu@users.noreply.git
 license = "MIT"
 description = "A too to search files"
 readme = "README.md"
-homepage = ""
-repository = ""
+homepage = "https://github.com/SetsuikiHyoryu/grrs-rust"
+repository = "https://github.com/SetsuikiHyoryu/grrs-rust"
 keywords = ["cli", "search", "demo"]
 categories = ["command-line-utilities"]
 
